@@ -5,8 +5,11 @@
 
 import scrapy
 
-
+# Определяем класс UnsplashItem, который наследует от scrapy.Item
 class UnsplashItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    # Определяем поля для элемента URL изображения
+    image_url = scrapy.Field()
+    # Название изображения
+    image_name = scrapy.Field()
+    # Категория, к которой принадлежит изображение
+    image_category = scrapy.Field()
