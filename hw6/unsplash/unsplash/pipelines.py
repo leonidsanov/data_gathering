@@ -14,7 +14,7 @@ import csv
 #         return item
 
 # Определяем класс Pipeline
-class CsvPipeline(object):
+class UnsplashPipeline(object):
     # Метод для инициализации пайплайна
     def __init__(self):
         # Создаем объект для записи данных в csv формате
